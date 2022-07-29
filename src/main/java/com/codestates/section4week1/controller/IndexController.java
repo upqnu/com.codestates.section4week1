@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-//@RequiredArgsConstructor
 public class IndexController {
-
-//    private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
     MemberRepository memberRepository;
