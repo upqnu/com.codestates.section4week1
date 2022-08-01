@@ -16,6 +16,9 @@ public class IndexController {
     @Autowired
     MemberRepository memberRepository;
 
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+
     @GetMapping("/")
     public @ResponseBody String index() {
         return "index";
